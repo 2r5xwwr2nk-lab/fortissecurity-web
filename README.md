@@ -1,14 +1,14 @@
 # Fortis Security Web
 
-Moderná webová stránka pre bezpečnostnú agentúru Fortis Security postavená na Next.js.
+Moderný web pre bezpečnostnú spoločnosť Fortis Security.
 
-## 🚀 Tech stack
-- Next.js (App Router)
+## Tech stack
+- Next.js
 - React
 - Tailwind CSS
-- Vercel deployment
 
-## 📦 Inštalácia
+## Spustenie projektu
 
 ```bash
 npm install
+npm run dev
