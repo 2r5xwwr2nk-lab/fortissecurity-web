@@ -161,12 +161,6 @@ const detailTranslations = {
   },
 };
 
-export function generateStaticParams() {
-  return services.map((service) => ({
-    slug: service.slug,
-  }));
-}
-
 export default function ServiceDetailPage({ params }) {
   const { language } = useLanguage();
   const service = services.find((item) => item.slug === params.slug);
