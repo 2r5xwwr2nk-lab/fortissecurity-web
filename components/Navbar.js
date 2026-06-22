@@ -184,7 +184,7 @@ export default function Navbar() {
         <button
           type="button"
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-black/40 text-2xl font-black text-white transition hover:border-yellow-400 hover:text-yellow-400 md:hidden"
+          className="relative z-[1000] flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-black/40 text-2xl font-black text-white transition hover:border-yellow-400 hover:text-yellow-400 md:hidden"
           aria-label="Otvoriť menu"
         >
           {mobileOpen ? "×" : "☰"}
@@ -192,7 +192,7 @@ export default function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t border-white/10 bg-[#111111] px-4 py-4 shadow-2xl shadow-black/60 md:hidden">
+  <div className="fixed inset-0 z-[999] overflow-y-auto bg-[#111111] px-4 pb-10 pt-24 md:hidden">
           <nav className="flex flex-col gap-3 text-base font-bold text-white">
             <Link
               href="/"

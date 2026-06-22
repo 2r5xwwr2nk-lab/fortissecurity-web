@@ -959,3 +959,27 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+span,
+li {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+main {
+  overflow-x: hidden;
+}
