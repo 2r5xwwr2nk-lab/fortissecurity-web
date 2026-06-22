@@ -10,11 +10,11 @@ export const translations = {
 
     servicesMenu: {
       pco: "PCO",
-      ochrana_osob: "Ochrana osôb",
-      ochrana_majetku: "Ochrana majetku",
-      kamerove_systemy: "Kamerové systémy",
-      prevoz_cenin: "Prevoz cenín",
-      podujatia: "Ochrana podujatí",
+      "ochrana-osob": "Ochrana osôb",
+      "ochrana-majetku": "Ochrana majetku",
+      "kamerove-systemy": "Kamerové systémy",
+      "prevoz-cenin": "Prevoz cenín",
+      "ochrana-podujati": "Ochrana podujatí",
     },
 
     map: {
@@ -34,12 +34,12 @@ export const translations = {
     },
 
     servicesMenu: {
-      pco: "Monitoring center",
-      ochrana_osob: "Personal protection",
-      ochrana_majetku: "Property protection",
-      kamerove_systemy: "Camera systems",
-      prevoz_cenin: "Valuables transport",
-      podujatia: "Event security",
+      pco: "Monitoring Center",
+      "ochrana-osob": "Personal Protection",
+      "ochrana-majetku": "Property Protection",
+      "kamerove-systemy": "Camera Systems",
+      "prevoz-cenin": "Valuables Transport",
+      "ochrana-podujati": "Event Security",
     },
 
     map: {
@@ -59,12 +59,12 @@ export const translations = {
     },
 
     servicesMenu: {
-      pco: "Notruf- und Serviceleitstelle",
-      ochrana_osob: "Personenschutz",
-      ochrana_majetku: "Objektschutz",
-      kamerove_systemy: "Kamerasysteme",
-      prevoz_cenin: "Werttransport",
-      podujatia: "Veranstaltungsschutz",
+      pco: "Leitstelle",
+      "ochrana-osob": "Personenschutz",
+      "ochrana-majetku": "Objektschutz",
+      "kamerove-systemy": "Kamerasysteme",
+      "prevoz-cenin": "Werttransport",
+      "ochrana-podujati": "Veranstaltungsschutz",
     },
 
     map: {
