@@ -486,7 +486,7 @@ function getServiceTranslation(content, service, index) {
 
 function FortisHeroLogo() {
   return (
-    <div className="fortis-hero-shield-wrap mx-auto w-[min(78vw,340px)] sm:w-[min(70vw,460px)] xl:mx-0 xl:w-[min(42vw,620px)]">
+    <div className="fortis-hero-shield-wrap mx-auto w-[min(72vw,300px)] sm:w-[min(60vw,390px)] xl:mx-0 xl:w-[min(34vw,500px)]">
       <svg
         viewBox="0 0 520 580"
         className="fortis-hero-shield-svg h-auto w-full"
@@ -671,7 +671,7 @@ export default function Home() {
     <main className="min-h-screen overflow-x-hidden bg-[#111111] text-white">
       <section
         id="domov"
-        className="relative min-h-screen overflow-hidden bg-[#1d1b1b] px-4 pt-28 sm:px-6 sm:pt-36 lg:px-10 lg:pt-40"
+        className="fortis-hero relative min-h-screen overflow-hidden bg-[#1d1b1b] px-4 pt-24 sm:px-6 sm:pt-32 lg:px-10 lg:pt-36"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_45%,_rgba(250,204,21,0.18),_transparent_30%),linear-gradient(90deg,_#1b1b1b,_#111111)]" />
         <div className="absolute left-[55%] top-24 hidden h-[720px] w-px bg-white/15 md:block" />
