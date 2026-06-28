@@ -673,7 +673,7 @@ export default function Home() {
         id="domov"
         className="fortis-hero relative min-h-screen overflow-hidden bg-[#1d1b1b] px-4 pt-28 sm:px-6 sm:pt-36 lg:px-10 lg:pt-40"
       >
-        <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_18%_45%,_rgba(250,204,21,0.18),_transparent_30%),linear-gradient(90deg,_#1b1b1b,_#111111)]" />
+        <div className="absolute inset-0 z-0 bg-[linear-gradient(90deg,_rgba(27,27,27,0.72),_#111111_62%),radial-gradient(circle_at_18%_45%,_rgba(250,204,21,0.16),_transparent_30%),url('/hero-texture.png')] bg-cover bg-center" />
         <div className="absolute left-[55%] top-24 hidden h-[720px] w-px bg-white/15 md:block" />
         <div className="absolute left-[66%] top-48 hidden h-[520px] w-px rotate-[-34deg] bg-white/15 md:block" />
 
